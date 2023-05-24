@@ -38,30 +38,36 @@ main > img {
     border-radius: 0.5rem;
 }
 
+.description-area {
+    margin: 1rem 0 1.5rem 0;
+}
+
 .product-details > h2 {
     font-size: 1.5rem;
-    padding: 0.8rem 0;
 }
 
 .product-details > p {
     color: var(--soft-blue);
-    padding: 0 0 0.8rem 0;
     font-weight: 300;
+    padding: 1rem 0;
 }
 
 .auction-detail {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0.8rem;
     font-weight: 300;
     font-size: 0.9rem;
 }
 
-.ethereum {
+.ethereum, .time {
     display: flex;
     gap: 0.5rem;
 }
 
 .eth {
     color: var(--cyan);
+}
+
+.time > p {
+    color: var(--soft-blue);
 }
