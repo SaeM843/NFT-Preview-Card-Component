@@ -71,3 +71,8 @@ main > img {
 .time > p {
     color: var(--soft-blue);
 }
+
+hr {
+    background-color: pink;
+    height: 2px;
+}
