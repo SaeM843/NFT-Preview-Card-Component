@@ -61,3 +61,7 @@ main > img {
     display: flex;
     gap: 0.5rem;
 }
+
+.eth {
+    color: var(--cyan);
+}
