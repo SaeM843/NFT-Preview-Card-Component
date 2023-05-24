@@ -14,3 +14,26 @@
     --very-dark-blue: hsl(215, 32%, 27%);
     --white: hsl(0, 0%, 100%);
 }
+
+body {
+    min-height: 100vh;
+    background-color: var(--cery-dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+main {
+    background-color: var(--very-dark-blue);
+    width: 300px;
+    padding: 20px;
+    border-radius:1rem;
+}
+
+main > img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
