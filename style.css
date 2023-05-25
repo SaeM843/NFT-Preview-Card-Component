@@ -76,3 +76,23 @@ hr {
     border: 1px solid var(--dark-blue-line);
     opacity: 0.5;
 }
+
+.creater-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+.creater-section > img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.creater-section > p > span  {
+    color: var(--soft-blue);
+}
