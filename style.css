@@ -33,7 +33,7 @@ main {
     border-radius:1rem;
 }
 
-main > a > img {
+.equilibrium {
     width: 100%;
     border-radius: 0.5rem;
 }
@@ -101,7 +101,7 @@ hr {
     font-size: 1rem;
 }
 
-.creater-section > p > a > span  {
+.creater-section > p > span  {
     color: var(--soft-blue);
 }
 
@@ -114,4 +114,8 @@ a {
 a:hover {
     color: var(--cyan);
     cursor: pointer;
+}
+
+main > a > img:hover {
+    background-image: url("./images/icon-view.svg");
 }
