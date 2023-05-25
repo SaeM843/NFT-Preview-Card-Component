@@ -33,6 +33,7 @@ main {
     border-radius:1rem;
 }
 
+
 .equilibrium {
     width: 100%;
     border-radius: 0.5rem;
@@ -116,6 +117,6 @@ a:hover {
     cursor: pointer;
 }
 
-main > a > img:hover {
-    background-image: url("./images/icon-view.svg");
+.equilibrium a:hover {
+    background: hsla(178, 100%, 50%, .5)
 }
