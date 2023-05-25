@@ -143,3 +143,10 @@ a:hover {
 .img-box:hover .overlay {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 767px) {
+    main {
+      width: 375px;
+      margin: 0 auto;
+    }
+  }
