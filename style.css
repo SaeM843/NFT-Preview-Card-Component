@@ -104,3 +104,14 @@ hr {
 .creater-section > p > a > span  {
     color: var(--soft-blue);
 }
+
+/* activate state */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
