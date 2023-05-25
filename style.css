@@ -11,7 +11,7 @@
     --cyan: hsl(178, 100%, 50%);
     --cery-dark-blue: hsl(217, 54%, 11%);
     --very-dark-blue: hsl(216, 50%, 16%);
-    --very-dark-blue: hsl(215, 32%, 27%);
+    --dark-blue-line: hsl(215, 32%, 27%);
     --white: hsl(0, 0%, 100%);
 }
 
@@ -73,6 +73,6 @@ main > img {
 }
 
 hr {
-    background-color: pink;
-    height: 2px;
+    border: 1px solid var(--very-dark-blue);
+    opacity: 0.5;
 }
