@@ -73,6 +73,6 @@ main > img {
 }
 
 hr {
-    border: 1px solid var(--very-dark-blue);
+    border: 1px solid var(--dark-blue-line);
     opacity: 0.5;
 }
