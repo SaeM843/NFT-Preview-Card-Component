@@ -33,6 +33,29 @@ main {
     border-radius:1rem;
 }
 
+.img-box {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    background-color: hsl(178, 100%, 50%, 60%);
+    width: 100%;
+    height: calc(100% - 4px);
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 0.8rem;
+}
+
+.icon {
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    text-align: center;
+}
 
 .equilibrium {
     width: 100%;
@@ -117,6 +140,6 @@ a:hover {
     cursor: pointer;
 }
 
-.equilibrium a:hover {
-    background: hsla(178, 100%, 50%, .5)
+.img-box:hover .overlay {
+    opacity: 0.8;
 }
