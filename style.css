@@ -33,10 +33,12 @@ main {
     border-radius:1rem;
 }
 
-main > img {
+main > a > img {
     width: 100%;
     border-radius: 0.5rem;
 }
+
+/* description area */
 
 .description-area {
     margin: 1rem 0 1.5rem 0;
@@ -77,6 +79,8 @@ hr {
     opacity: 0.5;
 }
 
+/* creator section */
+
 .creater-section {
     display: flex;
     flex-direction: row;
@@ -97,6 +101,6 @@ hr {
     font-size: 1rem;
 }
 
-.creater-section > p > span  {
+.creater-section > p > a > span  {
     color: var(--soft-blue);
 }
